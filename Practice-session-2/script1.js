@@ -15,3 +15,11 @@ function login(username, password){
 }
 
 login(username, password)
+
+function login(username){
+
+    console.log(`${username}, Logged in.`);
+}
+
+login('Shweta');
+login('Divya');

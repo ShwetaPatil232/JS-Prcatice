@@ -3,7 +3,7 @@ let height = prompt('Enter height : ')
 
 function cal(width = 1, height = 1){
 
-   height =  height === undefined ? 1 :height;
+   height =  (height === undefined) ? 1 : height;
     return width * height;
 }
 
